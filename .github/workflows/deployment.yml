@@ -58,7 +58,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/dev-ops-test-app:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/devopstest-app:latest
 
     - name: Image digest
       run: echo ${{ steps.build-and-publish.outputs.digest }}
