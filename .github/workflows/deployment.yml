@@ -1,4 +1,4 @@
-name: CI/CD for Dockerized Flask App
+name: DEVOPS - CI/CD for Dockerized Flask App
 
 on:
   push:
