@@ -4,7 +4,7 @@ def test_index():
     response=app.test_client().get("/")
 
     assert response.status_code==200
-    assert response.data== b"Homepage of Devops-Team uuuu"
+    assert response.data== b"Homepage of Devops-Team"
 
 def test_hello():
     response=app.test_client().get("/hello")
