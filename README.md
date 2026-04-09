@@ -1,1 +1,1 @@
-## This project show how to work with github action
+## Ce projet montre comment utiliser GitHub Actions
